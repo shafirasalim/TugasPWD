@@ -26,11 +26,22 @@
       <div class="sidebar-heading">MyBlog </div>
       <div class="list-group list-group-flush bg-primary text-white">
         <a href="<?='dashboard.php';?>" class="list-group-item list-group-item-action bg-info text-white active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-newspaper"></i> Artikel</a>
-        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-address-card"></i> About</a>
-        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-layer-group"></i> Produk</a>
-        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-wrench"></i> Layanan</a>
-        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"><i class="fas fa-id-card-alt"></i> Kontak</a>
+        <a href="#" class="list-group-item list-group-item-action bg-primary text-white">
+          <i class="fas fa-tools"></i> SERVICES
+        </a>
+        <a href="#" class="list-group-item list-group-item-action bg-primary text-white">
+            <i class="fas fa-calendar-alt"></i> SEASONAL FEATURES
+        </a>
+        <a href="#" class="list-group-item list-group-item-action bg-primary text-white">
+            <i class="fas fa-store"></i> SHOP BRAND
+        </a>
+        <a href="#" class="list-group-item list-group-item-action bg-primary text-white">
+            <i class="fas fa-shopping-cart"></i> CART
+        </a>
+        <a href="#" class="list-group-item list-group-item-action bg-primary text-white">
+            <i class="fas fa-envelope"></i> CONTACT
+        </a>
+
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -72,54 +83,56 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-4 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2 bg-primary">
-                  <div class="card-body ">
-                      <div class="row no-gutters align-items-center">
-                      <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-white mb-1">Artikel</div>
-                          <div class="h5 mb-0 font-weight-bold text-white">0</div>
-                      </div>
-                      <div class="col-auto">
-                          <i class="fas fa-newspaper fa-4x text-white"></i>
-                      </div>
-                      </div>
-                  </div>
+        <!-- CART -->
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card border-left-primary shadow h-100 py-2 bg-primary">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-white mb-1">CART</div>
+                  <div class="h5 mb-0 font-weight-bold text-white">0</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-shopping-cart fa-4x text-white"></i>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
 
-          <div class="col-xl-4 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2 bg-warning">
-                  <div class="card-body ">
-                      <div class="row no-gutters align-items-center">
-                      <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-white mb-1">Produk</div>
-                          <div class="h5 mb-0 font-weight-bold text-white rounded-circle">0</div>
-                      </div>
-                      <div class="col-auto">
-                          <i class="fas fa-address-card fa-4x text-white"></i>
-                      </div>
-                      </div>
-                  </div>
+        <!-- SHOP BRAND -->
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card border-left-primary shadow h-100 py-2 bg-warning">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-white mb-1">SHOP BRAND</div>
+                  <div class="h5 mb-0 font-weight-bold text-white">0</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-store fa-4x text-white"></i>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
 
-          <div class="col-xl-4 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2 bg-success">
-                  <div class="card-body ">
-                      <div class="row no-gutters align-items-center">
-                      <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-white mb-1">Layanan</div>
-                          <div class="h5 mb-0 font-weight-bold text-white">0</div>
-                      </div>
-                      <div class="col-auto">
-                          <i class="fas fa-wrench fa-4x text-white"></i>
-                      </div>
-                      </div>
-                  </div>
+        <div class="col-xl-4 col-md-6 mb-4">
+          <div class="card border-left-primary shadow h-100 py-2 bg-success">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-white mb-1">SERVICES</div>
+                  <div class="h5 mb-0 font-weight-bold text-white">0</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-tools fa-4x text-white"></i> <!-- ikon diganti -->
+                </div>
               </div>
+            </div>
           </div>
-        </div><!--END row-->        
+        </div>
+
 
       </div><!--END container-fluid-->
     </div>

@@ -17,7 +17,7 @@ class Auth extends Koneksi {
         if ($query && $query->num_rows > 0) {
             $row = $query->fetch_array();
             if (password_verify($password, $row['password'])) {
-                $_SESSION['id_penguna'] = $row['id_pengguna'];
+                $_SESSION['id_pengguna'] = $row['id_pengguna'];
                 return $row ['id_pengguna'];
                 // echo 'berhasil login';
             } else {
